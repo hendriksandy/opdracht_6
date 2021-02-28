@@ -1,0 +1,60 @@
+header {
+
+    border: 5px black solid;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+
+}
+
+main {
+    border: 8px black solid;
+    padding: 40px 30px 20px 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+footer {
+
+    border: 8px solid black;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.horzontaal_link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+li {
+    display: inline;
+    background-color: whitesmoke;
+    padding-right: 40px;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: lightpink;
+        color: lime;
+
+    }
+
+    p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+}
